@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trust_uses",
+  "info": {
+    "singularName": "trust-us",
+    "pluralName": "trust-uses",
+    "displayName": "Trust-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sizeLogo": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_foras",
+  "info": {
+    "singularName": "menu-fora",
+    "pluralName": "menu-foras",
+    "displayName": "menu-fora",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "sectionName": {
+      "type": "enumeration",
+      "enum": [
+        "znakowanie",
+        "reklama",
+        "grafika",
+        "branding"
+      ]
+    },
+    "activeElement": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
