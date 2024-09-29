@@ -1,8 +1,9 @@
-module.exports ={
-upload: {
-    provider: 'local',
-    providerOptions: {
-      sizeLimit: 10000000,
-    },
-  },
-};
+module.exports = ({env}) => ({
+    upload: {
+        config: {
+            providerOptions:{
+                sizeLimit: 10500000
+            }
+        }
+    }
+})
